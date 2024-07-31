@@ -23,7 +23,7 @@ Please feel free to contact linshizjsu@gmail.com if you have any questions.
 
 ## Overview
 
-In this work:
+This repository shares the code of our latest work on LLMs jailbreaking. In this work:
 
 - We further explore the boundary of jailbreak attacks on LLMs and propose ABJ, the first jailbreak attack method specifically designed to assess LLMs’ safety in handling analyzing-based tasks. ABJ generalizes jailbreak attack prompts in two steps: data preparation and data analysis.
 - We conduct comprehensive experiments on both open-source (Llama-3, Qwen-2, GLM-4) and closed-source (GPT-3.5-turbo, GPT-4-turbo, Claude-3) LLMs. The results demonstrate that ABJ exhibits exceptional attack effectiveness and efficiency, achieving 94.8% ASR on GPT-4-turbo, while the AE is around 1. 
