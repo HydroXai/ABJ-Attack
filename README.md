@@ -64,7 +64,7 @@ This repository shares the code of our latest work on LLMs jailbreaking. In this
      python ABJ.py -- attack_method original_ABJ -- target_model gpt4 -- attack_rounds 3 -- target_model_cuda_id cuda:1
      ```
 
-See ABJ.py for all of the arguments and descriptions.
+    See `ABJ.py` for all of the arguments and descriptions.
 
 
 ## Citation
