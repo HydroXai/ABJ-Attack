@@ -29,6 +29,10 @@ This repository shares the code of our latest work on LLMs jailbreaking. In this
 - We conduct comprehensive experiments on both open-source (Llama-3, Qwen-2, GLM-4) and closed-source (GPT-3.5-turbo, GPT-4-turbo, Claude-3) LLMs. The results demonstrate that ABJ exhibits exceptional attack effectiveness and efficiency, achieving 94.8% ASR on GPT-4-turbo, while the AE is around 1. 
 - We show the robustness of ABJ when facing different defense strategies, indicating that mitigating this attack might be difficult. Furthermore, by modifying and enriching the data of ABJ, we induce LLMs to generate a wide range of harmful content, encompassing various forms of harmful scenarios that are not limited to existing finite datasets.
 
+<p align="center">
+  <img src="image/ABJ.png" width="700"/>
+</p>
+
 ## Quick Start
 
 1. Clone this repository:
