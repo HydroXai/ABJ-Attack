@@ -31,6 +31,23 @@ This repository shares the code of our latest work on LLMs jailbreaking. In this
 
 ## Quick Start
 
+1. Clone this repository:
+
+   ```sh
+   git clone https://github.com/theshi-1128/ABJ-Attack.git
+   ```
+
+2. Build enviroment:
+
+   ```sh
+   cd ABJ-Attack
+   conda create -n ABJ python==3.10
+   conda activate ABJ
+   pip install -r requirements.txt
+   ```
+
+2. Run ABJ-Attack:
+
 
 ## Citation
 
