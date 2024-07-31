@@ -56,9 +56,9 @@ This repository shares the code of our latest work on LLMs jailbreaking. In this
      python ABJ.py -- attack_method [ATTACK METHOD] -- target_model [TARGET MODEL] -- attack_rounds [ATTACK ROUNDS] -- target_model_cuda_id [CUDA ID]
      ```
 
-    We implement four kind of ABJ Attack in our code. Their names are 'original_ABJ', 'modified_ABJ', 'code_based_ABJ','adversarial_ABJ'.
+    We implement four kind of ABJ Attack in our code. Their names are `original_ABJ`, `modified_ABJ`, `code_based_ABJ`,`adversarial_ABJ`.
   
-    For example, to run 'original_ABJ' with 'gpt-4-turbo-2024-04-09' as the target model in 'CUDA:0' for three rounds, run
+    For example, to run `original_ABJ` with `gpt-4-turbo-2024-04-09` as the target model in `CUDA:0` for three rounds, run
   
      ```sh
      python ABJ.py -- attack_method original_ABJ -- target_model gpt4 -- attack_rounds 3 -- target_model_cuda_id cuda:1
