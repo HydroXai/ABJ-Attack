@@ -1,6 +1,7 @@
 # ABJ-Attack
-Analyzing-based Jailbreak Attack on Large Language Models
+The official implementation of our paper "[Figure it Out: Analyzing-based Jailbreak Attack on Large Language Models](https://arxiv.org/pdf/2407.16205)"
 
+## Table of Contents
 
 ## Updates
 
