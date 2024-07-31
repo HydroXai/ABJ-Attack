@@ -32,6 +32,6 @@ If you find this work useful in your own research, please feel free to leave a s
       title={Figure it Out: Analyzing-based Jailbreak Attack on Large Language Models}, 
       author={Shi Lin and Rongchang Li and Xun Wang and Changting Lin and Wenpeng Xing and Meng Han},
       year={2024},
-      journal={arXiv preprint arXiv:2407.16205},
+      journal={arXiv preprint arXiv:2407.16205}
 }
 ```
