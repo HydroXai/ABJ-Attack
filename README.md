@@ -20,3 +20,18 @@ Please feel free to contact linshizjsu@gmail.com if you have any questions.
 - (**2024/07/23**) We have released the official code of ABJ-Attack!
 - (**2024/07/23**) Our paper is on arXiv! Check it out [here](https://arxiv.org/abs/2407.16205)!
 
+
+
+
+## Citation
+
+If you find this work useful in your own research, please feel free to leave a star⭐️ and cite our paper:
+
+```bibtex
+@misc{lin2023abj,
+      title={Figure it Out: Analyzing-based Jailbreak Attack on Large Language Models}, 
+      author={Shi Lin and Rongchang Li and Xun Wang and Changting Lin and Wenpeng Xing and Meng Han},
+      year={2024},
+      journal={arXiv preprint arXiv:2407.16205},
+}
+```
