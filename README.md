@@ -30,7 +30,7 @@ This repository shares the code of our latest work on LLMs jailbreaking. In this
 - We show the robustness of ABJ when facing different defense strategies, indicating that mitigating this attack might be difficult. Furthermore, by modifying and enriching the data of ABJ, we induce LLMs to generate a wide range of harmful content, encompassing various forms of harmful scenarios that are not limited to existing finite datasets.
 
 <p align="center">
-  <img src="image/ABJ.png" width="700"/>
+  <img src="ABJ.png" width="700"/>
 </p>
 
 ## Quick Start
