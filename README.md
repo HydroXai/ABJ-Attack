@@ -50,9 +50,15 @@ This repository shares the code of our latest work on LLMs jailbreaking. In this
    pip install -r requirements.txt
    ```
 
-2. Run ABJ-Attack:
+3. Run ABJ-Attack:
 
+To implement ABJ-Attack, run
 
+   ```sh
+   python ABJ.py -- attack_method [ATTACK METHOD] -- target_model [TARGET MODEL] -- attack_rounds [ATTACK ROUNDS] -- target_model_cuda_id [CUDA ID]
+   ```
+
+See ABJ.py for all of the arguments and descriptions.
 ## Citation
 
 If you find this work useful in your own research, please feel free to leave a star⭐️ and cite our paper:
