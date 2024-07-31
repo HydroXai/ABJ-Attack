@@ -12,7 +12,7 @@ Please feel free to contact linshizjsu@gmail.com if you have any questions.
 
 - [Updates](#updates)
 - [Overview](#overview)
-- [Quick Start](#Quick Start)
+- [Quick Start](#quick-start)
 
 
 ## Updates
