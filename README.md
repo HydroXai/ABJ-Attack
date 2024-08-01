@@ -90,10 +90,10 @@ This repository shares the code of our latest work on LLMs jailbreaking. In this
 If you find this work useful in your own research, please feel free to leave a star⭐️ and cite our paper:
 
 ```bibtex
-@misc{lin2023abj,
-      title={Figure it Out: Analyzing-based Jailbreak Attack on Large Language Models}, 
-      author={Shi Lin and Rongchang Li and Xun Wang and Changting Lin and Wenpeng Xing and Meng Han},
-      year={2024},
-      journal={arXiv preprint arXiv:2407.16205}
+@article{lin2024figure,
+  title={Figure it Out: Analyzing-based Jailbreak Attack on Large Language Models},
+  author={Lin, Shi and Li, Rongchang and Wang, Xun and Lin, Changting and Xing, Wenpeng and Han, Meng},
+  journal={arXiv preprint arXiv:2407.16205},
+  year={2024}
 }
 ```
