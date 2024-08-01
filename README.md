@@ -12,6 +12,7 @@ Please feel free to contact linshizjsu@gmail.com if you have any questions.
 
 - [Updates](#updates)
 - [Overview](#overview)
+- [Argument Specification](#argumentspecification)
 - [Quick Start](#quick-start)
 
 
@@ -33,6 +34,15 @@ This repository shares the code of our latest work on LLMs jailbreaking. In this
   <img src="ABJ.png" width="900"/>
 </p>
 
+
+## Argument Specification
+
+- `attack_method`: We implement `4` kind of ABJ Attack, including `original_ABJ`, `modified_ABJ`, `code_based_ABJ`,`adversarial_ABJ`.
+- `target_model`: The name of target model, including `gpt3`, `gpt4`, `claude3_haiku`, `llama3`, `glm4`, `qwen2`.
+- `attack_rounds`: Number of iteration rounds, default is `3`.
+- `target_model_cuda_id`: Number of the GPU for target model, default is `cuda:0`.
+
+  
 ## Quick Start
 
 1. Clone this repository:
@@ -53,18 +63,23 @@ This repository shares the code of our latest work on LLMs jailbreaking. In this
 3. Run ABJ-Attack:
 
      ```sh
-     python ABJ.py -- attack_method [ATTACK METHOD] -- target_model [TARGET MODEL] -- attack_rounds [ATTACK ROUNDS] -- target_model_cuda_id [CUDA ID]
+     python ABJ.py \
+     -- attack_method [ATTACK METHOD] \
+     -- target_model [TARGET MODEL] \
+     -- attack_rounds [ATTACK ROUNDS] \
+     -- target_model_cuda_id [CUDA ID]
      ```
 
-    We implement `4` kind of ABJ Attack. Their names are `original_ABJ`, `modified_ABJ`, `code_based_ABJ`,`adversarial_ABJ`.
-  
-    For example, to run `original_ABJ` with `gpt-4-turbo-2024-04-09` as the target model in `CUDA:0` for `3` rounds, run
+    For example, to run `original_ABJ` with `gpt-4-turbo-2024-04-09` as the target model on `CUDA:0` for `3` rounds, run
   
      ```sh
-     python ABJ.py -- attack_method original_ABJ -- target_model gpt4 -- attack_rounds 3 -- target_model_cuda_id cuda:1
+     python ABJ.py \
+     -- attack_method original_ABJ \
+     -- target_model gpt4 \
+     -- attack_rounds 3 \
+     -- target_model_cuda_id cuda:1
      ```
 
-    See `ABJ.py` for all of the arguments and descriptions.
 
 
 ## Citation
