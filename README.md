@@ -38,8 +38,11 @@ This repository shares the code of our latest work on LLMs jailbreaking. In this
 ## Argument Specification
 
 - `attack_method`: We implement `4` kind of ABJ Attack, including `original_ABJ`, `modified_ABJ`, `code_based_ABJ`,`adversarial_ABJ`.
+  
 - `target_model`: The name of target model, including `gpt3`, `gpt4`, `claude3_haiku`, `llama3`, `glm4`, `qwen2`.
+  
 - `attack_rounds`: Number of iteration rounds, default is `3`.
+  
 - `target_model_cuda_id`: Number of the GPU for target model, default is `cuda:0`.
 
   
