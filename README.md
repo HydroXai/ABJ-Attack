@@ -18,7 +18,7 @@ Please feel free to contact linshizjsu@gmail.com if you have any questions.
 
 ## Updates
 
-- (**2024/07/23**) We have released the official code of ABJ-Attack!
+- (**2024/07/31**) We have released the official code of ABJ-Attack!
 - (**2024/07/23**) Our paper is on arXiv! Check it out [here](https://arxiv.org/abs/2407.16205)!
 
 
