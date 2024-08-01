@@ -12,7 +12,7 @@ Please feel free to contact linshizjsu@gmail.com if you have any questions.
 
 - [Updates](#updates)
 - [Overview](#overview)
-- [Argument Specification](#argumentspecification)
+- [Argument Specification](#argument-specification)
 - [Quick Start](#quick-start)
 
 
